@@ -35,13 +35,16 @@
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Shoes</a>
+                                    <a class="nav-link" aria-current="page" href="#categoriesID">Categories</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Backpack</a>
+                                    <a class="nav-link" href="#shoesID">Shoes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link">Subscribe</a>
+                                    <a class="nav-link" href="#backpackID">Backpack</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#subscribeID">Subscribe</a>
                                 </li>
                             </ul>
                         </div>
@@ -124,7 +127,7 @@
 
         <main class="mt-5">
             <!-- Categories -->
-            <section>
+            <section id="categoriesID">
                 <div class="container overflow-hidden text-center">
                     <div class="row gy-5">
                         <div class="col-md-6 col-lg-4 col-sm-12">
@@ -152,93 +155,109 @@
 
             <!-- Card -->
             <!-- for shoes -->
-            <section class="mt-5">
-                <div class="container">
+
+
+            <!-- ==================== Shoes=========== -->
+
+            <section id="shoesID">
+                <div class="container mt-5">
                     <h1>Shoes</h1>
-                    <div class="row">
-                        
-                        <div class="card border-0 shadow col-lg-4 col-md-6 col-sm-12 col-12">
-                            <img src="https://raw.githubusercontent.com/UhaiMong/images/master/shoes/shoe-1.png" class="card-img-top"
-                                alt="Shoes">
-                            <div class="card-body d-flex flex-column align-items-start justify-content-around">
-                                <h3 class="card-title">Supply 350</h3>
-                                <h1>$160</h1>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                                    This content is a little bit
-                                    longer</p>
-                                <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/master/shoes/shoe-1.png" class="card-img-top" alt="Shoes">
+                                <div class="card-body d-flex flex-column align-items-start justify-content-around">
+                                    <h3 class="card-title">Suply 350</h3>
+                                    <h1>$160</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+                                        <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                                </div>
+                                
                             </div>
                         </div>
-                        <div class="card border-0 shadow col-lg-4 col-md-6 col-sm-12 col-12">
-                            <img src="https://raw.githubusercontent.com/UhaiMong/images/master/shoes/shoe-2.png" class="card-img-top"
-                                alt="Shoes">
-                            <div class="card-body d-flex flex-column align-items-start justify-content-around">
-                                <h3 class="card-title">Nike 360</h3>
-                                <h1>$160</h1>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                                    This content is a little bit
-                                    longer</p>
-                                <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/master/shoes/shoe-2.png" class="card-img-top" alt="Shoes">
+                                <div class="card-body d-flex flex-column align-items-start justify-content-around">
+                                    <h3 class="card-title">Nike 360</h3>
+                                    <h1>$200</h1>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                                </div>
+                                
                             </div>
                         </div>
-                        <div class="card border-0 shadow col-lg-4 col-md-6 col-sm-12 col-12">
-                            <img src="https://raw.githubusercontent.com/UhaiMong/images/master/shoes/shoe-3.png" class="card-img-top"
-                                alt="Shoes">
-                            <div class="card-body d-flex flex-column align-items-start justify-content-around">
-                                <h3 class="card-title">Red Airmax</h3>
-                                <h1>$160</h1>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                                    This content is a little bit
-                                    longer</p>
-                                <a href="#" class="btn btn-primary text-light">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-            <!-- Shoes ended -->
-            <!-- for Bags -->
-                    <h1 class="mt-5">Bags</h1>
-                    <div class="row">
-                        <div class="card border-0 shadow col-lg-4 col-md-6 col-sm-12 col-12">
-                            <img src="https://raw.githubusercontent.com/UhaiMong/images/master/bags/bag-1.png" class="card-img-top"
-                                alt="Shoes">
-                            <div class="card-body d-flex flex-column align-items-start justify-content-around">
-                                <h3 class="card-title">Red Laltu Bag</h3>
-                                <h1>$160</h1>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary text-light">Buy Now</a>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow col-lg-4 col-md-6 col-sm-12 col-12">
-                            <img src="https://raw.githubusercontent.com/UhaiMong/images/master/bags/bag-2.png" class="card-img-top"
-                                alt="Shoes">
-                            <div class="card-body d-flex flex-column align-items-start justify-content-around">
-                                <h3 class="card-title">Supply 350</h3>
-                                <h1>$160</h1>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                                    content.
-                                    This content is a little bit
-                                    longer</p>
-                                <a href="#" class="btn btn-primary text-light">Buy Now</a>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow col-lg-4 col-md-6 col-sm-12 col-12">
-                            <img src="https://raw.githubusercontent.com/UhaiMong/images/master/bags/bag-3.png" class="card-img-top"
-                                alt="Shoes">
-                            <div class="card-body d-flex flex-column align-items-start justify-content-around ">
-                                <h3 class="card-title">Red Airmax</h3>
-                                <h1>$160</h1>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer
-                                content than the first to show that equal height action.</p>
-                                <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/master/shoes/shoe-3.png" class="card-img-top" alt="Shoes">
+                                <div class="card-body d-flex flex-column align-items-start justify-content-around">
+                                    <h3 class="card-title">Red Airmax
+                                    </h3>
+                                    <h1>$230</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                        content. This card has even longer content than the first to show that equal height action.</p>
+                                        <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                                </div>
+                                    
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- shoes section ended -->
+            <!-- Backpack section -->
+            <section id="backpackID">
+                <div class="container mt-5">
+                    <h1>Backpack</h1>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/master/bags/bag-1.png" class="card-img-top" alt="Shoes">
+                                <div class="card-body d-flex flex-column align-items-start justify-content-around">
+                                    <h3 class="card-title">Red Laltu Bag</h3>
+                                    <h1>$800</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                                    longer.</p>
+                                        <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/master/bags/bag-2.png" class="card-img-top" alt="Shoes">
+                                <div class="card-body d-flex flex-column align-items-start justify-content-around">
+                                    <h3 class="card-title">Nike 360</h3>
+                                    <h1>$600</h1>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/master/bags/bag-3.png" class="card-img-top" alt="Shoes">
+                                <div class="card-body d-flex flex-column align-items-start justify-content-around">
+                                    <h3 class="card-title">Red Airmax
+                                    </h3>
+                                    <h1>$900</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                        content. This card has even longer content than the first to show that equal height action.</p>
+                                        <a href="#" class="btn btn-primary text-light">Buy Now</a>
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- backpack ended -->
             <!-- Card ended -->
 
             <!-- Subscribe -->
-            <section class="mt-5 mb-5">
+            <section class="mt-5 mb-5" id="subscribeID">
                 <form class="container bg-custom p-5 rounded-3 d-flex flex-column align-items-center">
                     <div class="text-start">
                         <div class="mb-3">
