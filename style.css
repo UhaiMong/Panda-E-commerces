@@ -1,0 +1,13 @@
+/* Slider */
+.bg-slider{
+    background-color: #D8C0C4;
+}
+.bg-custom{
+    background-color: #FFE0E6;
+}
+/* All button */
+.btn{
+    border: none;
+    padding: 13px 35px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
